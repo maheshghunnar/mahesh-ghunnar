@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 0px;
+    line-height: opx;
+    color : black;
+    /* text-align : var(--#{$prefix}body-text-align); */
+    /* background-color: var(--#{$prefix}body-bg); // 2 */
+    -webkit-text-size-adjust: 100%; 
+    -webkit-tap-highlight-color: rgba(black, 0); 
+  }
+
+.nav-link:focus, .nav-link:hover {
+    color: rgba(255, 253, 253, 0.8);
+    bottom: -5px;
+    background-color: #000000;
+    border-radius: 5px;
+    /* transition: 0.3s; */
+    transition-timing-function: ease-in-out;
+    /* transform: scaleX(0); */
+}
